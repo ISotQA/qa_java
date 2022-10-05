@@ -9,11 +9,11 @@ import java.lang.reflect.ParameterizedType;
 import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
-public class FelineTestWithParam {
+public class FelineWithParamTest {
     private int kittensCount;
     private int expectedCount;
 
-    public FelineTestWithParam(int kittensCount, int expectedCount) {
+    public FelineWithParamTest(int kittensCount, int expectedCount) {
         this.kittensCount = kittensCount;
         this.expectedCount = expectedCount;
     }
